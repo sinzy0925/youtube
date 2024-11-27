@@ -49,3 +49,7 @@ def get_transcript(video_id: str):
 async def get_video_transcript(videoId: str):
     res = get_transcript(videoId)
     return res
+
+@app.get("/")
+async def aaa():
+    return 'Hello!'
