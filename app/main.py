@@ -15,6 +15,7 @@ origins = [
     "http://localhost",
     "http://localhost:8080",
     "http://127.0.0.1:8000",
+    "https://youtube01-791673075181.asia-northeast2.run.app",
 ]
 app.add_middleware(
     CORSMiddleware,
