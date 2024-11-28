@@ -1,5 +1,9 @@
 fastapi
 uvicorn
-pymongo
-python-dotenv
-youtube_transcript_api
+fastapi-limiter
+youtube-transcript-api
+regex
+langdetect
+icecream
+aiohttp
+requests
